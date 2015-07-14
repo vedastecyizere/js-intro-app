@@ -167,14 +167,18 @@
 
 // // For loops
 
-// i = 0
-// RUBY: 10.times do 
-  // i += 1
-  // puts i
-// end
 
 // for(var i = 0; i < 10; i++) {
 //   console.log(i);
+// }
+
+// Logical equivalent of the above for loop:
+
+// var i = 0;
+
+// while(i < 10) {
+//   console.log(i);
+//   i++;
 // }
 
 // What the above for loop means in English:
@@ -240,16 +244,6 @@
 
 // Functions can also, therefore, be one of the properties of an object
 
-// class Car
-  
-//   attr_accessor :model, :year, :miles
-
-//   def to_string
-//     puts "#{model} has done #{miles} miles"
-//   end
-
-// end
-
 // var car = {
 
 //   model: "Buick",
@@ -264,8 +258,29 @@
 // console.log(car["model"]);
 // console.log(car.year);
 // console.log(car.printMessage());
+// console.log(car.printMessage);
 
 // // Constructors (the closest thing to Ruby classes)
+
+// Ruby equivalent:
+
+// class Car
+  
+//   attr_accessor :model, :year, :miles
+//
+//   def initialize(model, year, miles)
+//     @model = model
+//     @year = year
+//     @miles = miles
+//   end
+//
+//   def to_string
+//     puts "#{model} has done #{miles} miles"
+//   end
+
+// end
+
+// car = Car.new("Honda Civic", 2009, 20000)
 
 function Car( model, year, miles ) {
  
@@ -288,7 +303,7 @@ var civic = new Car( "Honda Civic", 2009, 20000 );
 // // output of the toString() method being called on
 // // these objects
 // console.log( civic );
-// console.log( mondeo.toString() );
+// console.log( civic.toString() );
 
 
 
