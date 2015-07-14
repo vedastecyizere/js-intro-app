@@ -123,6 +123,15 @@
 //   console.log("Medium number");
 // }
 
+// Ruby:
+// 5 == 5 // true
+// 5 == "5" // false
+
+// JS:
+// 5 == 5 // true
+// 5 == "5" // true
+// 5 === "5" // false
+
 // // Falsy things:
 
 // if (false) {alert("WAT");}
