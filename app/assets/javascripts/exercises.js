@@ -35,6 +35,8 @@
 // But for multiples of three print "Fizz" instead of the number, and for the multiples of five print "Buzz". 
 // For numbers which are multiples of both three and five print "FizzBuzz".
 
+// Hint: See other hints!
+
 // // Exercise #5:
 
 // Recreate the guess a number game between 1 and 100. That is, the computer chooses a random number between 1 and 100, and tells the user to pick higher or lower. The user has 10 tries. Use the prompt function to help you with this. (NOTE: prompt will return a string, and you may need to "cast" it into a number.)
