@@ -14,4 +14,7 @@ class PagesController < ApplicationController
   def numbers
   end
 
+  def calc
+  end
+
 end

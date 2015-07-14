@@ -65,7 +65,7 @@
 // console.log(person["firstName"]);
 // console.log(person.firstName);
 
-// var x = "firstName"
+// var x = "firstName";
 // console.log(person[x]);
 // DOESN'T WORK! >>> console.log(person.x)
 
@@ -87,16 +87,19 @@
 
 // To convert a string into a number:
 
+// Ruby:
 // "234".to_i
 
+// JS:
 // var str = "234";
 // var num = parseInt(str);
 
 // To convert a number into a string:
 
+// Ruby:
 // 234.to_s
 
-// var num = 234
+// var num = 234;
 // var str = num.toString();
 
 // // Conditionals
@@ -137,7 +140,7 @@
 // // random number between 1 and 10:
 
 // RUBY: rand(1..10)
-// JS: console.log(Math.floor((Math.random() * 10) + 1));
+// JS: Math.floor((Math.random() * 10) + 1);
 
 // // While loops
 
@@ -152,6 +155,9 @@
 // console.log(text);
 
 // // Do/While loops
+
+// var i = 0;
+// var text = "";
 
 // do {
 //     text += "The number is " + i;
