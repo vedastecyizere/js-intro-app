@@ -206,7 +206,7 @@
 
 // sayHello();
 
-// Functions that accept parameters
+// // Functions that accept parameters
 
 // function addTwoNumbers(numberOne, numberTwo) {
 //     return numberOne + numberTwo;              
@@ -214,7 +214,7 @@
 
 // console.log(addTwoNumbers(1, 99));
 
-// Basic scope
+// // Basic scope
 
 // function trickedYa() {
 //   var z = "Zebra";
