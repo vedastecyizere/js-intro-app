@@ -78,7 +78,7 @@
 // // typeof - seeing what kind of type something is
 
 // console.log(typeof "John"); //String            
-// console.log(typeof 3.14);   //number    
+// console.log(typeof 2.93);   //number    
 // console.log(typeof false);  //Boolean            
 // console.log(typeof [1,2,3,4]); //Object     
 // console.log(typeof {name:'John', age:34}); //Object
@@ -125,6 +125,15 @@
 // } else {
 //   console.log("Medium number");
 // }
+
+// Ruby:
+// 5 == 5 // true
+// 5 == "5" // false
+
+// JS:
+// 5 == 5 // true
+// 5 == "5" // true
+// 5 === "5" // false
 
 // // Falsy things:
 
