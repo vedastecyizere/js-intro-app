@@ -360,7 +360,7 @@
 //     @miles = miles
 //   end
 //
-//   def to_string
+//   def print_message
 //     puts "#{model} has done #{miles} miles"
 //   end
 // end
@@ -368,19 +368,21 @@
 // civic = Car.new("Honda Civic", 2009, 20000)
 // mondeo = Car.new("Ford Mondeo", 2010, 5000)
 // puts civic
-// puts civic.to_string
+// puts civic.year
+// puts civic.print_message
 
 // JAVASCRIPT CONSTRUCTORS (the closest thing to Ruby classes)
 // function Car(model, year, miles) {
 //   this.model = model;
 //   this.year = year;
 //   this.miles = miles;
-//   this.toString = function() {
+//   this.printMessage = function() {
 //     return this.model + " has done " + this.miles + " miles";
 //   };
 // }
-//
+
 // var civic = new Car("Honda Civic", 2009, 20000);
 // var mondeo = new Car("Ford Mondeo", 2010, 5000);
 // console.log(civic);
-// console.log(civic.toString());
+// console.log(civic.year);
+// console.log(civic.printMessage());
