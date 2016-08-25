@@ -16,4 +16,11 @@ function changeSecondTitle() {
 
 function finishSentence(phrase) {
   phrase.innerHTML = "we can do this!";
+  phrase.style["border"] = "5px solid red";
+}
+
+function changeBackgroundAndText() {
+  var example = document.getElementById("css-example");
+  example.style["background-color"] = "blue";
+  example.innerHTML = "Now I'm blue!";
 }
