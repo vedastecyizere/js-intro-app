@@ -21,7 +21,9 @@ class PagesController < ApplicationController
   end
 
   def change
-    
+  end
+  
+  def daylight
   end
 
 end
